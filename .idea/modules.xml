@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/01-Fundamentos-do-Java/01-Fundamentos-do-Java.iml" filepath="$PROJECT_DIR$/01-Fundamentos-do-Java/01-Fundamentos-do-Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/01-Fundamentos-do-Java/01-Sintaxe/01-Sintaxe.iml" filepath="$PROJECT_DIR$/01-Fundamentos-do-Java/01-Sintaxe/01-Sintaxe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/01-Fundamentos-do-Java/02-Orientacao-a-Objetos/02-Orientacao-a-Objetos.iml" filepath="$PROJECT_DIR$/01-Fundamentos-do-Java/02-Orientacao-a-Objetos/02-Orientacao-a-Objetos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/01-Fundamentos-do-Java/03-Pilares-da-POO/03-Pilares-da-POO.iml" filepath="$PROJECT_DIR$/01-Fundamentos-do-Java/03-Pilares-da-POO/03-Pilares-da-POO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java.iml" filepath="$PROJECT_DIR$/Java.iml" />
+    </modules>
+  </component>
+</project>
