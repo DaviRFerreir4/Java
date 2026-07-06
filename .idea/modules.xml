@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/01-Fundamentos-do-Java/03-Pilares-da-POO/03-Pilares-da-POO.iml" filepath="$PROJECT_DIR$/01-Fundamentos-do-Java/03-Pilares-da-POO/03-Pilares-da-POO.iml" />
       <module fileurl="file://$PROJECT_DIR$/01-Fundamentos-do-Java/04-Java-Time/04-Java-Time.iml" filepath="$PROJECT_DIR$/01-Fundamentos-do-Java/04-Java-Time/04-Java-Time.iml" />
       <module fileurl="file://$PROJECT_DIR$/01-Fundamentos-do-Java/05-Java-N-IO/05-Java-N-IO.iml" filepath="$PROJECT_DIR$/01-Fundamentos-do-Java/05-Java-N-IO/05-Java-N-IO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/01-Fundamentos-do-Java/06-Excecoes/06-Excecoes.iml" filepath="$PROJECT_DIR$/01-Fundamentos-do-Java/06-Excecoes/06-Excecoes.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java.iml" filepath="$PROJECT_DIR$/Java.iml" />
     </modules>
   </component>
