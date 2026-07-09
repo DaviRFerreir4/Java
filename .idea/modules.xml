@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/01-Fundamentos-do-Java/01-Fundamentos-do-Java.iml" filepath="$PROJECT_DIR$/01-Fundamentos-do-Java/01-Fundamentos-do-Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02-Ainda-Sobre-Java/01-Java-Collections/01-Java-Collections.iml" filepath="$PROJECT_DIR$/02-Ainda-Sobre-Java/01-Java-Collections/01-Java-Collections.iml" />
       <module fileurl="file://$PROJECT_DIR$/01-Fundamentos-do-Java/01-Sintaxe/01-Sintaxe.iml" filepath="$PROJECT_DIR$/01-Fundamentos-do-Java/01-Sintaxe/01-Sintaxe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02-Ainda-Sobre-Java/02-Ainda-Sobre-Java.iml" filepath="$PROJECT_DIR$/02-Ainda-Sobre-Java/02-Ainda-Sobre-Java.iml" />
       <module fileurl="file://$PROJECT_DIR$/01-Fundamentos-do-Java/02-Orientacao-a-Objetos/02-Orientacao-a-Objetos.iml" filepath="$PROJECT_DIR$/01-Fundamentos-do-Java/02-Orientacao-a-Objetos/02-Orientacao-a-Objetos.iml" />
       <module fileurl="file://$PROJECT_DIR$/01-Fundamentos-do-Java/03-Pilares-da-POO/03-Pilares-da-POO.iml" filepath="$PROJECT_DIR$/01-Fundamentos-do-Java/03-Pilares-da-POO/03-Pilares-da-POO.iml" />
       <module fileurl="file://$PROJECT_DIR$/01-Fundamentos-do-Java/04-Java-Time/04-Java-Time.iml" filepath="$PROJECT_DIR$/01-Fundamentos-do-Java/04-Java-Time/04-Java-Time.iml" />
