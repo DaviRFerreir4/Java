@@ -17,8 +17,8 @@ public class Expressoes {
         String nameFormated = String.format("%-15.20s", name);
         System.out.println(nameFormated + '|');
 
-        // % indicadorDeData <(indica que está usando o mesmo parâmetro
-        // anterior) d(day, month, year ou YEAR)
+        // % <(indica que está usando o mesmo parâmetro anterior)
+        // indicadorDeData d(day, month, year ou YEAR)
         String localDateFormated = String.format("%td/%<tm/%<tY",
                 contractExpiration);
         System.out.println(localDateFormated);
