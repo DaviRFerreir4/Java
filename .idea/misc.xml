@@ -5,6 +5,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/02-Ainda-Sobre-Java/02-Maven-e-JDBC/pom.xml" />
+        <option value="$PROJECT_DIR$/03-Comecando-no-Spring-Boot/01-Fundamentos-do-Spring/pom.xml" />
       </list>
     </option>
   </component>
