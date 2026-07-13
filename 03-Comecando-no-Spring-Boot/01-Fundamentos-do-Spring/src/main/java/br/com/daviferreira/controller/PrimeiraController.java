@@ -13,25 +13,47 @@ public class PrimeiraController {
         return "Hello, World! Esse é meu primeiro método";
     }
 
-    // método com route params
-    @GetMapping("/users/{id}")
-    public String showUser(@PathVariable(name = "id") String outroNome) {
+    // função com route params
+    @GetMapping("/metodo-com-route-params/{id}")
+    public String metodoComRouteParams(@PathVariable(name = "id") String outroNome) {
         return String.format("Usuário retornado através de route params: %s",
                 outroNome);
     }
 
-    // método com query params
-    @GetMapping("/users")
-    public String indexUsers(@RequestParam String id) {
+    // função com query params
+    @GetMapping("/metodo-com-query-params")
+    public String metodoComQueryParams(@RequestParam String id) {
         return String.format("Usuário retornado através de query params: %s",
                 id);
 
     }
 
-    // método com query params num map
-    @GetMapping("/users-with-filters")
-    public String indexUsersWithFilters(@RequestParam Map<String, String> allParams) {
+    // função com query params num map
+    @GetMapping("/metodo-com-query-params-usando-map")
+    public String metodoComQueryParamsPegandoTudo(@RequestParam Map<String,
+            String> allParams) {
         return String.format("Usuário retornado através de query params: %s",
                 allParams.entrySet());
+    }
+
+    // função com body params
+    @PostMapping("/metodo-com-body-params")
+    public String metodoComBodyParams(@RequestBody User user) {
+        return user.username();
+    }
+
+    record User(String username, Integer age) {
+    }
+
+    // função com body params
+    @PostMapping("/metodo-com-headers")
+    public String metodoComHeaders(@RequestHeader("name") String name) {
+        return name;
+    }
+
+    // função com body params
+    @PostMapping("/metodo-com-list-headers")
+    public String metodoComListHeaders(@RequestHeader Map<String, String> headers) {
+        return headers.entrySet().toString();
     }
 }
