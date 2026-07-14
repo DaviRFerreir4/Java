@@ -1,5 +1,6 @@
 package br.com.daviferreira.controller;
 
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Map;
@@ -55,5 +56,14 @@ public class PrimeiraController {
     @PostMapping("/metodo-com-list-headers")
     public String metodoComListHeaders(@RequestHeader Map<String, String> headers) {
         return headers.entrySet().toString();
+    }
+
+    // função com retorno de response entity
+    @GetMapping("/metodo-response-entity/{id}")
+    public ResponseEntity<Object> metodoResponseEntity(@PathVariable String id) {
+        if (Integer.parseInt(id) > 10) {
+            return ResponseEntity.status(201).body(id);
+        }
+        return ResponseEntity.status(400).body("Número menor ou igual a 10");
     }
 }
