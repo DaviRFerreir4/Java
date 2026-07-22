@@ -6,10 +6,11 @@
       <list>
         <option value="$PROJECT_DIR$/02-Ainda-Sobre-Java/02-Maven-e-JDBC/pom.xml" />
         <option value="$PROJECT_DIR$/03-Comecando-no-Spring-Boot/01-Fundamentos-do-Spring/pom.xml" />
+        <option value="$PROJECT_DIR$/03-Comecando-no-Spring-Boot/02-Rotas-Autenticacao-e-Autorizacao/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" default="true">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_20" default="true" project-jdk-name="20" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
